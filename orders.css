@@ -1,0 +1,77 @@
+main{
+  margin-top: 60px;
+}
+#your-orders{
+  font-size: 28px;
+  font-weight: 700;
+  padding: 30px;
+}
+
+.order-container{
+  margin: 30px;
+  
+}
+
+.order-header{
+  display: grid;
+  grid-template-columns: 150px 1fr 300px;
+  justify-content: space-between;
+  padding: 20px;
+  border: solid rgb(199, 199, 199) 1px;
+  border-start-start-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(232, 232, 232);
+}
+
+.order-header-top{
+  font-weight: 700;
+}
+
+.order-header span{
+  display: block;
+}
+
+.order-product-container{
+  display: grid;
+  grid-template-columns: 150px 1fr 300px;
+  padding: 20px;
+  border: 1px rgb(205, 205, 205) solid;
+  border-top: none;
+}
+.order-product-name{
+  font-weight: 700;
+}
+
+.order-product-middle p{
+  margin: 5px;
+}
+
+.buy-again-button{
+  background-color: rgb(255, 213, 0);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buy-again-button:hover{
+  background-color: rgb(207, 182, 0);
+}
+
+.buy-again-image{
+  margin-right: 10px;
+}
+
+.track-package-button{
+  box-shadow: 2px 2px 10px rgb(229, 229, 229) ;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px rgb(216, 216, 216) solid;
+  font-size: 16px;
+  padding: 10px 60px;
+  cursor: pointer;
+}

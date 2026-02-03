@@ -1,0 +1,142 @@
+body{
+  margin: 0;
+  font-family: arial;
+}
+#home-header{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 60px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#checkout-header{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header-left */
+#header-left{
+  padding: 8px 6px;
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 180px;
+}
+#checkout-header #header-left{
+  width: 90px;
+}
+.home-link{
+  width: 100px;
+  padding: 6px 8px;
+}
+#home-link:hover{
+  border: solid 1px white;
+  border-radius: 4px;
+}
+#header-left img{
+  width: 100px;
+}
+/* header-middle */
+#header-middle{
+  flex: 1;
+  display: flex;align-items: center;
+  padding-right: 20px;
+  justify-content: center;
+}
+#header-middle input{
+  padding: 13px;
+  flex: 1;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+  max-width: 800px;
+}
+#header-middle input::placeholder{
+  font-size: 16px;
+  color: rgb(69, 69, 69);
+}
+#search-button{
+  background-color: rgb(229, 180, 89);
+  border: none;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  cursor: pointer;
+}
+#search-button img{
+  width: 20px;
+  padding: 9px;
+}
+
+#checkout{
+  font-size: 24px;
+  font-weight: 700;
+}
+#checkout a{
+  color: rgb(35, 112, 104);
+  text-decoration: none;
+}
+/* header-right */
+#header-right{
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+#order-link{
+  width: 70px;
+  padding: 4px;
+}
+#order-link:hover{
+  border: solid 1px white;
+  border-radius: 4px;
+}
+#returns, #orders{
+  color: white;
+}
+#returns{
+  font-size: 12px;
+}
+#orders{
+  font-size: 14px;
+  font-weight: 700;
+}
+#cart-link{
+  padding: 4px 6px;
+}
+#cart-link:hover{
+  border: solid 1px white;
+  border-radius: 4px;
+}
+#cart-link a{
+  display: flex;
+  align-items: center;
+}
+#cart{
+  position: relative;
+}
+#cart span{
+  position: absolute;
+  top: 0px;
+  left: 24px;
+  color: rgb(224, 147, 3);
+  font-weight: 700;
+}
+#cart img{
+  width: 50px;
+}
+#cart-string{
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 4px;
+}
+
+#checkout-header #header-right {
+  width: 50px;
+}
