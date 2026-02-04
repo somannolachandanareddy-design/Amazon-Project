@@ -1,5 +1,8 @@
 Amazon Clone Project
 
+website URL - https://supersimple.dev/projects/amazon/ 
+(Its an reference website i took for doing myProject) 
+
 This project is a simple Amazon-like website built using HTML, CSS, JavaScript, and a backend. The goal of this project was to understand how real e-commerce websites work, including product display, user interaction, and client-server communication.
 
 Features
